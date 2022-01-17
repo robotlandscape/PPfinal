@@ -20,10 +20,13 @@ There are organizations which do collect valuable data on world hunger, like the
 ## Reflection
 
 > What did you discover through your research that was new or surprising? If you didn't discover anything new, why not?
+
 In my visiting the WFP website, I learned about the multifacetedness of eliminating and preventing famine. There's education, there's political stability, there's economic equality, and international dependence, all of which play into creating contitions ripe for disaster. 
 
 > Was it difficult to research this information? Why or why not?
+
 I already knew about freerice, that provided a good starting place for my research. I just had to look at what the organization that owned freerice was, which was the WFP. The WHO is going to be another useful source as well.
 
 > Is it important to be able to perform good research as a programmer? Why or why not?
+
 Yes! One *must* have a solid understanding of the problem they're trying to solve before solving it, knowing the restraints of a project is a prerequisite for any engineering-based project. 
