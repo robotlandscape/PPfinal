@@ -1,0 +1,63 @@
+An interactive menu for users to select different options (using your previous research from your selected scenario)
+====================================================================================================================
+notdecided == true
+while notdecided == true:
+	print where do you want to go?
+	print options
+	let option = input("> ")
+	if option == a:
+		notdecided = false
+		do this
+	if option == b:
+		notdecided = false
+		do something else
+	if option == c:
+		notdecided = false
+		do something something else
+	else:
+		print try again!
+		// should loop automatically because of the notdecided while loop
+
+
+A function to calculate the average of a list
+=============================================
+
+let raw_input = a dictionary of (country):(starving people) // however that's measured
+sum = 0
+for i in raw_input
+	sum = sum + raw_input.starvingpeople
+average = sum / raw_input.starvingpeople.length()
+
+A function to display the average back to the user
+==================================================
+
+print(average(raw_input.starvingpeople))
+
+An interactive quiz/survey that responds with feedback depending on user input (using your previous research from your selected scenario)
+=========================================================================================================================================
+
+menu("do you want to have the greatest impact or the broadest impact?")
+menu("How many countries do you want to help?")
+menu("do you want to just help any country below average?")
+display best combination of countries to help based on what meets the criteria
+
+
+A function to display research
+==============================
+
+average(raw_input.starvingpeople)
+for i in raw_input.starvingpeople:
+	if raw_input.starvingpeople[i] is lower than average:
+		print rawinput.country
+
+Any needed input, calculations, and output that provides a solution to the scenario's problem
+=============================================================================================
+
+Inputs:
+Country names, median per-capita income, cost of living
+
+Calculations:
+Take the median of the median percapita income
+
+Output:
+The names of any countries who fall below that threshold
