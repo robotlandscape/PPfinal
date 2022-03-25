@@ -41,7 +41,7 @@ def kowalski_analysis():
 		dictionary.append(row) # fills the dictionary
 
 	def sort(e):
-		return e['Population'] # honestly don't ask I got it from a tutorial and it works as intended
+		return e['Population'] # honestly, don't ask. I got it from a tutorial and it works as intended
 	
 	dictionary.sort(key=sort)
 
