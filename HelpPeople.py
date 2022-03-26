@@ -1,6 +1,6 @@
 import csv as csv # idk why I needed "as csv" but for some reason it doesn't work without it
 
-def main_menu():
+def main():
 	notdecided = True
 	while notdecided == True:
 		print("Where do you want to go?")
@@ -41,17 +41,12 @@ def kowalski_analysis():
 		dictionary.append(row) # fills the dictionary
 
 	def sort(e):
-		return e['Population'] # honestly, don't ask. I got it from a tutorial and it works as intended
+		return e['Population'] # the criteria that we sort the data by
+
 	
 	dictionary.sort(key=sort)
 
-	for i in range(58):
+	for i in range(58): # adjust number for a greater quantity of data
 		print(dictionary[i])
-
-
-	
-			
-def main():
-	main_menu()
 
 main()
