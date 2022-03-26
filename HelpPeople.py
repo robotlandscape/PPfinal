@@ -42,6 +42,7 @@ def kowalski_analysis():
 
 	def sort(e):
 		return e['Population'] # the criteria that we sort the data by
+
 	
 	dictionary.sort(key=sort)
 
